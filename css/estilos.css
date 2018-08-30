@@ -1,0 +1,151 @@
+.logo{
+  margin: 10px;
+  max-height: 100px;
+}
+
+.nav{
+  margin-top: 10px;
+}
+
+.contenedor{
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.redes-sociales{
+  font-size: 2rem;
+  color: white;
+}
+
+.fa-user-circle{
+  font-size: 2rem;
+  margin: 5px;
+}
+.encabezado{
+  background-color: #386FB5;
+  color: white;
+}
+
+.buscador{
+  background-color: #386FB5;
+  color: white;
+  padding-top: 20px;
+}
+
+img{
+  max-width: 100%;
+}
+
+@media (max-width: 575px){
+  .show-xs-only{
+    display: block !important;
+  }
+  .show-sm-only{
+    display: none !important;
+  }
+  .show-md-only{
+    display: none !important;
+  }
+  .show-lg-only{
+    display: none !important;
+  }
+  .hide-xs-only{
+    display: none !important;
+  }
+  .hide-sm-only{
+    display: block !important;
+  }
+  .hide-md-only{
+    display: block !important;
+  }
+  .hide-lg-only{
+    display: block !important;
+  }
+}
+
+@media (min-width:576px) and (max-width:767px){
+  .show-xs-only{
+    display: none !important;
+  }
+  .show-sm-only{
+    display: block !important;
+  }
+  .show-md-only{
+    display: none !important;
+  }
+  .show-lg-only{
+    display: none !important;
+  }
+  .hide-xs-only{
+    display: block !important;
+  }
+  .hide-sm-only{
+    display: none !important;
+  }
+  .hide-md-only{
+    display: block !important;
+  }
+  .hide-lg-only{
+    display: block !important;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px){
+  .show-xs-only{
+    display: none !important;
+  }
+  .show-sm-only{
+    display: none !important;
+  }
+  .show-md-only{
+    display: block !important;
+  }
+  .show-lg-only{
+    display: none !important;
+  }
+  .hide-xs-only{
+    display: block !important;
+  }
+  .hide-sm-only{
+    display: block !important;
+  }
+  .hide-md-only{
+    display: none !important;
+  }
+  .hide-lg-only{
+    display: block !important;
+  }
+}
+
+@media (min-width:992px) {
+  .show-xs-only{
+    display: none !important;
+  }
+  .show-sm-only{
+    display: none !important;
+  }
+  .show-md-only{
+    display: none !important;
+  }
+  .show-lg-only{
+    display: block !important;
+  }
+  .hide-xs-only{
+    display: block !important;
+  }
+  .hide-sm-only{
+    display: block !important;
+  }
+  .hide-md-only{
+    display: block !important;
+  }
+  .hide-lg-only{
+    display: none !important;
+  }
+}
